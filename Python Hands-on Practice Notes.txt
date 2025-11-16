@@ -1,0 +1,67 @@
+Python Hands-on Practice Notes
+
+1 Write Your First "Hello World" Program
+
+
+print("Hello, World!")
+
+ Output: Hello, World!
+
+
+2 Create Variables to Store Different Types of Data
+
+Variables store information that the program uses.
+
+name = "Ashu"        # string
+after_years = 25      # integer
+height = 5.8          # float
+is_student = True     # boolean
+
+
+To display values:
+
+print(name, after_years, height, is_student)
+
+
+3 Build a Simple Calculator for Basic Math Operations
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+
+`int()` converts user input from string to integer.
+
+
+4 Create a Program That Asks for User's Name and Greets Them
+
+name = input("Enter your name: ")
+print("Hello", name + "! Welcome to Python Programming.")
+
+
+5 Practice Fixing Common Syntax Errors
+Example 1 – Missing Bracket
+
+Wrong:
+python
+print("Hello World"
+
+
+Correct:
+
+print("Hello World")
+
+Example 2 – Missing Quotes in Input
+
+Wrong:
+
+age = input(Enter age: )
+
+Correct:
+
+age = input("Enter age: ")
+
+

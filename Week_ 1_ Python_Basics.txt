@@ -1,0 +1,124 @@
+# Python Basics 
+
+1. What is Python?
+Python is a high-level, easy-to-learn programming language. Used for web development, data analysis, artificial intelligence, automation, software development.
+
+* Features:
+
+ Simple and readable syntax
+ Large community and libraries
+ Works on Windows, Mac, Linux
+
+2. Variables
+
+A variable is used to store data in a program.
+Example:
+
+python
+name = "Ashu"
+age = 25
+
+3. Data Types
+
+| Data Type      | Example      | Meaning        |
+| -------------- | ------------ | -------------- |
+| String (str)   | "Hello"      | Text data      |
+| Integer (int)  | 10           | Whole number   |
+| Float          | 10.5         | Decimal number |
+| Boolean (bool) | True / False | Logical values |
+
+Example:
+
+```python
+x = "Python"   # string
+y = 10         # integer
+z = 10.5       # float
+is_active = True
+
+4. Basic Operations
+
+Arithmetic Operators
+
+python
+a = 10
+b = 5
+
+print(a + b) = 15
+print(a - b) = 5
+print(a * b) = 50
+print(a / b) = 2.0
+print(a % b) = remainder
+```
+
+String Concatenation
+
+python
+first = "Hello"
+second = "World"
+print(first + " " + second)   # Hello World
+
+ 5. Input and Output
+
+Getting user input
+
+name = input("Enter your name: ")
+print("Hello", name)
+```
+
+ Output
+
+print("Welcome to Python!")
+
+
+ 6. Comments & Documentation
+
+Used to explain code.
+
+ Single Line Comment
+
+ This is a comment
+
+
+ Multi-Line Comment
+
+"""
+This is a multi-line
+comment
+"""
+
+7. Understanding Errors
+
+Common error types:
+
+| Error       | Meaning                   |
+| ----------- | ------------------------- |
+| SyntaxError | Wrong code format         |
+| NameError   | Variable not defined      |
+| TypeError   | Wrong data type operation |
+| ValueError  | Wrong value format        |
+
+ Example
+
+
+print("Hello"
+
+Error message:
+
+
+SyntaxError: unexpected EOF while parsing
+
+ Practice Example
+
+
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+
+print("Hello " + name)
+print("You are", age, "years old")
+
+ Next Topics (Optional)
+
+* If / Else Conditions
+* Loops (for, while)
+* Functions
+* Lists & Dictionaries
