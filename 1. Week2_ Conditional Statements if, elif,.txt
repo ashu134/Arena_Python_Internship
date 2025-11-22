@@ -1,0 +1,85 @@
+1. Conditional Statements: if, elif, else
+
+Conditional statements allow your program to make decisions based on conditions.
+
+Syntax
+
+if condition:
+    # code to run if condition is true
+elif another_condition:
+    # code if previous condition is false and this is true
+else:
+    # code if none of the above conditions are true
+
+Example
+age = 20
+
+if age >= 18:
+    print("Eligible to vote")
+elif age == 17:
+    print("Almost eligible")
+else:
+    print("Not eligible")
+
+2. Comparison Operators
+
+Used to compare values. They return True or False.
+
+Operator	Meaning		Example 	Result
+==	Equal to		5 == 5		True
+!=	Not equal to		5 != 3		True
+>	Greater than		10 > 6		True
+<	Less than		2 < 5		True
+>=	Greater or equal	8 >= 8		True
+<=	Less or equal		4 <= 7		True
+
+3. Lists
+
+Lists store multiple values in a single variable.
+
+Creating a list
+fruits = ["apple", "banana", "mango"]
+
+Accessing elements
+print(fruits[0])  # apple
+
+Modifying
+fruits[1] = "grapes"
+
+Adding and removing
+fruits.append("orange")   # Add
+fruits.remove("apple")    # Remove
+
+4. For Loops
+
+Used to repeat actions for each item in a sequence (list, string, etc.).
+
+Example
+numbers = [1, 2, 3, 4, 5]
+
+for num in numbers:
+    print(num)
+
+5. While Loops
+
+Repeats code as long as condition is True.
+
+Example
+count = 1
+
+while count <= 5:
+    print(count)
+    count += 1
+
+6. Basic Error Handling (try-except)
+
+Used to handle errors so program does not crash.
+
+Example
+try:
+    x = int(input("Enter a number: "))
+    print(10 / x)
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+except ValueError:
+    print("Invalid input, please enter a number")
